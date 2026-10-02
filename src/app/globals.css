@@ -1,0 +1,6 @@
+* { box-sizing: border-box; }
+html { color-scheme: dark; scroll-behavior: smooth; }
+body { margin: 0; background: #050505; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
